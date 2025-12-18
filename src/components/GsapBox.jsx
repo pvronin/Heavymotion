@@ -463,22 +463,25 @@ export function GsapBox() {
                             <p className="text-xl md:text-2xl max-w-2xl mx-auto text-gray-300 mb-10 leading-relaxed">
                                 Interactive and dynamic effects that respond to user engagement. Create memorable experiences that stand out.
                             </p>
-                            <div className="relative inline-block mb-12">
-                                <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-full blur-xl opacity-30"></div>
-                                <div className="relative px-8 py-4 bg-gray-900/80 backdrop-blur-sm rounded-full border border-gray-700">
-                                    <span className="text-lg">🎮 Mouse Interactions</span>
-                                    <span className="mx-4">•</span>
-                                    <span className="text-lg">📱 Touch Gestures</span>
-                                    <span className="mx-4">•</span>
-                                    <span className="text-lg">🎯 Scroll Effects</span>
+                            <div className="flex gap-4 items-center justify-center">
+                                <div className="relative inline-block">
+                                    <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-full blur-xl opacity-30"></div>
+                                    <div className="relative px-8 py-4 bg-gray-900/80 backdrop-blur-sm rounded-full border border-gray-700">
+                                        <span className="text-lg">🎮 Mouse Interactions</span>
+                                        <span className="mx-4">•</span>
+                                        <span className="text-lg">📱 Touch Gestures</span>
+                                        <span className="mx-4">•</span>
+                                        <span className="text-lg">🎯 Scroll Effects</span>
+                                    </div>
                                 </div>
+                                <button className="section-button px-10 py-5 bg-gradient-to-r from-emerald-600 to-blue-600 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/40 transition-all duration-300 group">
+                                    <span className="flex items-center gap-3">
+                                        Get Started
+                                        <span className="group-hover:scale-125 transition-transform duration-300">✨</span>
+                                    </span>
+                                </button>
                             </div>
-                            <button className="section-button px-10 py-5 bg-gradient-to-r from-emerald-600 to-blue-600 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-emerald-500/40 transition-all duration-300 group">
-                                <span className="flex items-center gap-3">
-                                    Get Started
-                                    <span className="group-hover:scale-125 transition-transform duration-300">✨</span>
-                                </span>
-                            </button>
+
                         </div>
                     </section>
                 </div>
@@ -582,11 +585,10 @@ export function GsapBox() {
 
                 {/* فوتر */}
                 <footer className="mt-24 pt-8 border-t border-gray-800/30 w-full text-center text-gray-500 text-sm">
-                    <p>© 2024 Heavy Motion Design. All rights reserved.</p>
+                    <p>© 2025 ALI WARSHADE. All rights reserved.</p>
                     <p className="mt-2">Crafted with ❤️ for the animation community</p>
                 </footer>
             </section>
-
 
         </div>
     );
